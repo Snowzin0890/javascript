@@ -1,17 +1,16 @@
 let pizza = 20
-let fatia = 1
 
 function comerPizza(){
 
     function comerFatia(){
         if(pizza > 0){
-            pizza -= fatia
+            pizza--
         }
     }
 
     while(pizza > 0){
-        comerFatia()
         console.log(`Pedacos restantes: ${pizza}`)
+        comerFatia()
     }
 
     console.log('A pizza acabou!!!')
