@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculo de preco</h1>
+    </header>
+    <section>
+        <div>
+            <label for="prod">Produto:</label>
+            <input type="text" name="prod" id="prod">
+            <br><br>
+            <label for="quant">Quantidade:</label>
+            <input type="number" name="quant" id="quant">
+            <br><br>
+            <input type="submit" value="Adicionar" onclick="add()">
+            <br>
+            <input type="submit" value="Calcular" onclick="calc()">
+        </div>
+        <br><br>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
